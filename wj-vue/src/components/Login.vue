@@ -1,4 +1,5 @@
 <template>
+  <el-card></el-card>
   <body id="paper">
     <el-form :model="loginForm" :rules="rules" class="login-container" label-position="left"
              label-width="0px" v-loading="loading">
